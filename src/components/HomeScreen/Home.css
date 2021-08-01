@@ -1,0 +1,105 @@
+#main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px 70px 70px 250px;
+  grid-template-areas:
+    ". logo ."
+    ". search ."
+    ". flexbox ."
+    ". google-text .";
+}
+
+#main i {
+  position: absolute;
+}
+
+i {
+  padding: 13px 15px;
+  min-width: 40px;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  margin-left: 35.5%;
+  margin-top: 16.5%;
+  color: rgba(50, 51, 51, 0.637);
+}
+
+.icon {
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  position: relative;
+  left: 135%;
+  top: 63.5%;
+  -webkit-transform: translateX(+100%);
+  -ms-transform: translateX(+100%);
+  transform: translateX(+100%);
+}
+
+#logo {
+  grid-area: logo;
+  justify-self: center;
+  align-self: end;
+}
+
+#search {
+  grid-area: search;
+  height: 40px;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 30px;
+  font-size: 20px;
+  padding-inline-end: 45px;
+  padding-inline-start: 54px;
+  outline: none;
+}
+
+#search:focus {
+  box-shadow: 1px 1px 5px grey;
+}
+#search:hover {
+  box-shadow: 1px 1px 5px grey;
+}
+
+#flexbox {
+  display: flexbox;
+  grid-area: flexbox;
+  justify-self: center;
+  align-self: center;
+}
+
+#google-search-btn {
+  border: none;
+  font-size: 15px;
+  color: #5f6368;
+  margin-right: 20px;
+  padding: 7px 15px 7px 15px;
+  border-radius: 3px;
+}
+
+#random-search-btn {
+  border: none;
+  font-size: 15px;
+  color: #5f6368;
+  padding: 7px 15px 7px 15px;
+  border-radius: 3px;
+}
+
+#google-search-btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+#random-search-btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+#google-text {
+  grid-area: google-text;
+  justify-self: center;
+}
+
+#eng {
+  color: blue;
+}

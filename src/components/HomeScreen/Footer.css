@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px/27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 100px 100px 150px 1030px 70px 70px 70px;
+  grid-template-rows: 50px;
+  grid-template-areas: "advertising business hsw . privacy terms settings";
+}
+
+#advertising {
+  grid-area: advertising;
+  justify-self: center;
+  align-self: center;
+}
+#business {
+  grid-area: business;
+  justify-self: center;
+  align-self: center;
+}
+#hsw {
+  grid-area: hsw;
+  justify-self: center;
+  align-self: center;
+}
+#privacy {
+  grid-area: privacy;
+  justify-self: center;
+  align-self: center;
+}
+#terms {
+  grid-area: terms;
+  justify-self: center;
+  align-self: center;
+}
+#settings {
+  grid-area: settings;
+  justify-self: center;
+  align-self: center;
+}

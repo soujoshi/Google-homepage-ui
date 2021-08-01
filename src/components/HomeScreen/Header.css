@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+#navbar {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 1fr 60px 60px 60px 80px;
+  grid-template-rows: 50px;
+  grid-template-areas: "about store post . gmail images menu sign-in";
+}
+
+a,
+p {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px/27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.btn {
+  margin-top: 7px;
+}
+
+a.btn:hover {
+  text-decoration: underline;
+}
+
+#about {
+  grid-area: about;
+  justify-self: center;
+  align-self: center;
+}
+
+#store {
+  grid-area: store;
+  justify-self: center;
+  align-self: center;
+}
+
+#post {
+  grid-area: post;
+  justify-self: center;
+  align-self: center;
+}
+
+#gmail {
+  grid-area: gmail;
+  justify-self: center;
+  align-self: center;
+}
+
+#images {
+  grid-area: images;
+  justify-self: center;
+  align-self: center;
+}
+
+#menu {
+  grid-area: menu;
+  justify-self: center;
+  align-self: center;
+}
+
+#sign-in {
+  grid-area: sign-in;
+  justify-self: center;
+  align-self: center;
+  margin-right: 20px;
+  background-color: #4683ea;
+  height: 30px;
+  width: 65px;
+  line-height: 30px;
+  text-align: centeR;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #4285f4;
+  padding: 2px 2px;
+}

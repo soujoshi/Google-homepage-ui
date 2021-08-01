@@ -14,7 +14,7 @@ const Header = () => {
       <a href="/" id="store">
         Store
       </a>
-      <a class="btn" href="http://localhost:3000/post">
+      <a class="btn" href="https://friendly-nobel-4355d2.netlify.app/post">
         Post
       </a>
       <a href="/" id="gmail">
